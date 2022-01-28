@@ -1,0 +1,18 @@
+<div fxLayout="column" fxFill>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <a mat-icon-button href="https://www.marvel.com/characters" target="_blank">
+          <img src="https://i.ibb.co/1TXqMyj/Marvel_Logo.svg.png">
+        </a>
+        <h2 fxFlex>{{title}}</h2>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <div fxFlex class="content">
+      <router-outlet></router-outlet>
+    </div>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <small>Dados retornados a partir da API da <a href="https://developer.marvel.com/" target="_blank">Marvel</a> ©</small>
+      </mat-toolbar-row>
+    </mat-toolbar>
+</div>
