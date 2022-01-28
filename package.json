@@ -3,16 +3,15 @@
   "version": "1.2.0",
   "description": "Angular Heroes",
   "authors": [
-    "Aristeidis Bampakos"
+    "Psblo Roberto"
   ],
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "npm start",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "e2e": "ng e2e"
   },
   "engines": {
     "node": "16.13.2",
